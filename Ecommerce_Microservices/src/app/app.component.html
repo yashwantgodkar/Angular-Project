@@ -1,0 +1,25 @@
+<app-header (sidenav)="toggelNavbar($event)"></app-header>
+<form #authForm="ngForm" (ngSubmit)="onSubmit(authForm)">
+<div>
+  <button mat-button mat-raised-button color="primary" 
+          class="buy-now-button space"
+          type="submit">LOGIN
+  </button>
+    
+</div>
+</form>
+<div style="text-align:center">
+    <h1>
+      Welcome to {{ title }}!
+    </h1>
+    <div>Some tags before</div>
+      <owl-carousel-o [options]="customOptions">
+      <ng-template carouselSlide><img src="https://www.tryloctite.in/themes/loctite/common/images/Offer-banner.jpg"></ng-template>  
+      <ng-template carouselSlide><img src="https://jaxenter.de/wp-content/uploads/2016/01/angularjs_2_0-log-500x375.jpg"></ng-template>  
+      <ng-template carouselSlide><img src="https://jaxenter.de/wp-content/uploads/2016/01/angularjs_2_0-log-500x375.jpg"></ng-template> 
+      <ng-template carouselSlide><img src="https://jaxenter.de/wp-content/uploads/2016/01/angularjs_2_0-log-500x375.jpg"></ng-template>  
+      <ng-template carouselSlide><img src="https://jaxenter.de/wp-content/uploads/2016/01/angularjs_2_0-log-500x375.jpg"></ng-template>  
+    </owl-carousel-o>
+    <div>Some tags after</div>
+  </div>
+

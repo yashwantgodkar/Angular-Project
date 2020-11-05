@@ -1,0 +1,19 @@
+.contact-box{
+    background: #262626;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 12px;
+    padding: 0px 2%;
+  }
+  .contact-box .first{
+    flex: 1;
+    align-items: center;
+  }
+  .contact-box .second{
+    flex: 2;
+}
+.contact-box .third{
+    flex: 2;
+}
+  
